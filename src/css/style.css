@@ -52,7 +52,10 @@ nav ul .show {
   background: #F5F5F5;
   border-radius: 0;
   border: none;
-  top: 140%; }
+  top: 140%;
+  width: 250px;
+  text-align: center;
+  padding: 20px;}
 
 .dropright .dropdown-menu {
   padding: 5px 25px 5px 15px;
@@ -94,7 +97,8 @@ nav .static .nav-link:after {
   opacity: 1; }
 
 .dropdown-item {
-  padding: 5px 10px; }
+  padding: 5px 10px; 
+}
 
 .navbar-light .navbar-nav .nav-link,
 .dropdown-item h5 {
@@ -139,7 +143,8 @@ li .dropdown-toggle,
   font-weight: 700; }
 
 .dropdown-menu a:hover {
-  color: #FE5A1A !important; }
+  color: #FE5A1A !important; 
+  background: transparent;}
 
 .dropdown-toggle::after {
   display: none; }
@@ -271,3 +276,4 @@ footer input[type="submit"]:hover {
 
 footer p p {
   color: #FE5A1A; }
+
